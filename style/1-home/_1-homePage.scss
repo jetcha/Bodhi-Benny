@@ -1,0 +1,43 @@
+#home-page-section {
+  min-height: 85vh;
+  padding: 0rem 0rem 5vh 0rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  //flex-wrap: wrap;
+}
+
+#home-image-wrapper {
+  & img {
+    height: 60rem;
+  }
+}
+
+#home-description-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  & div {
+    height: 60rem;
+
+    & #home-description {
+      writing-mode: vertical-rl;
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: 0.5rem;
+      line-height: 3.2rem;
+    }
+
+    & #home-date {
+      writing-mode: vertical-rl;
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.4rem;
+      //TODO: There must be a better way to do this
+      margin: 43.6rem 2rem 0rem 0.5rem;
+    }
+  }
+}

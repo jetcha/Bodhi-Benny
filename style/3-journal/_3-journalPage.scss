@@ -1,0 +1,42 @@
+#journal-page-section {
+  min-height: 75vh;
+  margin: 10vh 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: start;
+}
+
+#journal-year-month-wrapper {
+  display: flex;
+  align-items: flex-end;
+
+  & div {
+    margin: 0rem 0.3rem;
+
+    & p {
+      writing-mode: vertical-rl;
+      letter-spacing: 0.6rem;
+    }
+  }
+}
+
+#journal-title-wrapper {
+  display: flex;
+  align-items: flex-start;
+
+  & div {
+    margin: 0rem 0.3rem;
+
+    & p {
+      writing-mode: vertical-rl;
+      letter-spacing: 0.6rem;
+    }
+  }
+}
+
+.journal-title-link-wrapper {
+  & p a:hover {
+    color: #444444;
+  }
+}
